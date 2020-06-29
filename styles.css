@@ -1,0 +1,159 @@
+body{
+  margin:0;
+  text-align: center;
+  font-family: 'Merriweather', serif;
+  background-color: #d5dde7;
+}
+
+h1 {
+  margin: 10px auto 0 auto;
+  font-family: 'Rokkitt', serif;
+  font-size: 3rem;
+  color: black;
+  font-style:normal;
+}
+
+
+
+.top-container {
+
+  display: inline-block;
+  padding-bottom: 10%;
+  padding-top: 8%;
+  position: relative;
+  text-align: center;
+}
+
+.top_cloud{
+  position: absolute;
+  width: 7%;
+  top: 6%;
+  right: 15%;
+}
+
+.bottom_cloud{
+  position: absolute;
+  width: 6%;
+  top: 33%;
+  left: 14%;
+}
+
+.sea{
+  width: 75%;
+  margin: 50px auto auto auto;
+  position: relative;
+}
+
+@media (min-width: 1350px){
+  .wrapper{
+    width: 100%;
+    z-index: 1;
+    text-align: center;
+    position: relative;
+    bottom: 21rem;
+  }
+
+  p{
+    line-height: 2;
+  }
+
+
+  .card{
+    background-color: rgba(255,255,255,0.5);
+    width: 40%;
+    margin: 0 auto 0 auto;
+    padding: 4%;
+  }
+
+  .dice1{
+    display: inline-block;
+    padding: 2rem;
+  }
+
+  .dice2{
+    display: inline-block;
+    padding: 2rem;
+  }
+
+
+  .img1, .img2 {
+    width: 6rem;
+  }
+}
+
+
+
+@media(max-width: 1350px) {
+  .wrapper{
+    width: 100%;
+    z-index: 1;
+    text-align: center;
+    position: relative;
+    bottom: 10rem;
+  }
+
+  p{
+    line-height: 2;
+    font-size: 1.1rem;
+  }
+
+
+  .card{
+    background-color: rgba(255,255,255,0.5);
+    width: 50%;
+    margin: 0 auto 0 auto;
+    padding: 3%;
+  }
+
+  .dice1{
+    display: inline-block;
+    padding: 2rem;
+  }
+
+  .dice2{
+    display: inline-block;
+    padding: 1.5rem;
+  }
+
+
+  .img1, .img2 {
+    width: 5.5rem;
+  }
+}
+
+@media (max-width: 800px){
+  .wrapper{
+    width: 100%;
+    z-index: 1;
+    text-align: center;
+    position: relative;
+    bottom: 10rem;
+  }
+
+  p{
+    line-height: 2;
+    font-size: 1.2rem;
+  }
+
+  .card{
+    background-color: rgba(255,255,255,0.5);
+    width: 60%;
+    margin: 0 auto 0 auto;
+    padding: 4%;
+  }
+
+  .dice1{
+    display: inline-block;
+    padding: 2rem;
+  }
+
+  .dice2{
+    display: inline-block;
+    padding: 1rem;
+  }
+
+
+  .img1, .img2 {
+    width: 4rem;
+  }
+}
