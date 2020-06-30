@@ -14,6 +14,29 @@ h1 {
   font-style:normal;
 }
 
+.button{
+  border-style: none;
+  background-color: #203864;
+  color: white;
+  font-family: 'Merriweather', serif;
+  padding: 4px;
+  width: 9%;
+  font-size: 1.3rem;
+  outline: none;
+}
+
+.button:hover{
+  border-style: none;
+  Box-shadow:0 0px 0px rgba(0,0,0,0.19), 5px 5px 12px rgba(0,0,0,0.23);
+}
+
+.button:active{
+  Box-shadow:0 0px 0px rgba(0,0,0,0.19), 6px 6px 12px rgba(0,0,0,0.23);
+  background-color: #00003f;
+}
+
+
+
 .top-container {
   display: inline-block;
   padding-bottom: 10%;
@@ -44,6 +67,7 @@ h1 {
   position: relative;
 }
 
+
 @media (min-width: 1350px){
   .wrapper{
     width: 100%;
@@ -57,6 +81,12 @@ h1 {
     line-height: 2;
   }
 
+  .button{
+    position: absolute;
+    top: 27%;
+    left: 45.5%;
+    z-index: 2;
+  }
 
   .card{
     background-color: rgba(255,255,255,0.5);
@@ -83,6 +113,7 @@ h1 {
 
 
 
+
 @media(max-width: 1350px) {
   .wrapper{
     width: 100%;
@@ -95,6 +126,15 @@ h1 {
   p{
     line-height: 2;
     font-size: 1.1rem;
+  }
+
+  .button{
+    position: absolute;
+    top: 27%;
+    left: 44%;
+    z-index: 2;
+    width: 12%;
+    font-size: 1.5rem;
   }
 
 
@@ -133,6 +173,15 @@ h1 {
   p{
     line-height: 2;
     font-size: 1.2rem;
+  }
+
+  .button{
+    position: absolute;
+    top: 25%;
+    left: 42.5%;
+    z-index: 2;
+    width: 15%;
+    font-size: 1.5rem;
   }
 
   .card{
