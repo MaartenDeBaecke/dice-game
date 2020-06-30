@@ -1,4 +1,11 @@
 function play(){
+  var diceRoll = new Audio('sounds/diceRoll.mp3');
+  diceRoll.play();
+  setTimeout(roll, 1500);
+
+}
+
+function roll(){
   var randomNumber1 = Math.floor(Math.random() * 6) + 1;
   var randomNumber2 = Math.floor(Math.random() * 6) + 1;
 
