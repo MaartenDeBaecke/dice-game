@@ -39,7 +39,6 @@ h1 {
 
 .top-container {
   display: inline-block;
-  padding-bottom: 10%;
   padding-top: 8%;
   position: relative;
   text-align: center;
@@ -63,12 +62,18 @@ h1 {
 
 .sea{
   width: 75%;
-  margin: 50px auto auto auto;
+  margin: 50px auto 0 auto;
   position: relative;
 }
 
+.footer{
+  font-size: 0.8rem;
+  text-align: center;
+  margin-top: -3rem;
+}
 
-@media (min-width: 1350px){
+
+@media (min-width: 1400px){
   .wrapper{
     width: 100%;
     z-index: 1;
@@ -83,7 +88,7 @@ h1 {
 
   .button{
     position: absolute;
-    top: 27%;
+    top: 20rem;
     left: 45.5%;
     z-index: 2;
   }
@@ -114,7 +119,7 @@ h1 {
 
 
 
-@media(max-width: 1350px) and (min-width: 800px) {
+@media(max-width: 1400px) and (min-width: 800px) {
   .wrapper{
     width: 100%;
     z-index: 1;
