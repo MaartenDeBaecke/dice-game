@@ -114,7 +114,7 @@ h1 {
 
 
 
-@media(max-width: 1350px) {
+@media(max-width: 1350px) and (min-width: 800px) {
   .wrapper{
     width: 100%;
     z-index: 1;
@@ -161,7 +161,7 @@ h1 {
   }
 }
 
-@media (max-width: 800px){
+@media (max-width: 800px) and (min-width: 600px){
   .wrapper{
     width: 100%;
     z-index: 1;
@@ -210,5 +210,72 @@ h1 {
     width: 70rem;
     position: relative;
     right: 25rem;
+  }
+}
+
+@media (max-width: 600px){
+  .wrapper{
+    width: 100%;
+    z-index: 1;
+    text-align: center;
+    position: relative;
+    bottom: 15rem;
+  }
+
+  p{
+    line-height: 2;
+    font-size: 1.2rem;
+  }
+
+  .button{
+    position: absolute;
+    top: 13rem;
+    left: 40%;
+    z-index: 2;
+    width: 20%;
+    font-size: 1.8rem;
+  }
+
+  .card{
+    background-color: rgba(255,255,255,0.5);
+    width: 90%;
+    margin: 0 auto 0 auto;
+    padding: 2%;
+  }
+
+  .dice1{
+    display: inline-block;
+    padding: 1.5rem;
+  }
+
+  .dice2{
+    display: inline-block;
+    padding: 1.5rem;
+  }
+
+
+  .img1, .img2 {
+    width: 7rem;
+  }
+
+  .sea{
+    width: 70rem;
+    position: relative;
+    right: 30rem;
+  }
+
+  .top_cloud{
+    position: absolute;
+    width: 13%;
+    top: 18%;
+    right: 10%;
+    z-index: -1;
+  }
+
+  .bottom_cloud{
+    position: absolute;
+    width: 13%;
+    top: 23%;
+    left: 3%;
   }
 }
